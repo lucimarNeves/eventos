@@ -27,4 +27,49 @@ body {
  
   }
 
+  .botao {
+    @apply flex justify-center items-center;
+    @apply gap-2 rounded-md px-9 h-9;
+    @apply text-sm font-semibold;
+  
+  }
+
+  .botao.azul {
+    @apply bg-blue-500 text-white
+  }
+  .botao.azul:hover {
+    @apply bg-blue-800;
+  }
+
+  .botao.vermelho {
+    @apply bg-red-500 text-white;
+  }
+  .botao.vermelho:hover {
+    @apply bg-red-800;
+  }
+  .botao.verde {
+    @apply bg-green-500 text-white;
+  }
+  .botao.stone:hover {
+    @apply bg-green-700 text-white;
+  }
+  .botao.stone {
+    @apply bg-stone-800 text-white;
+  }
+  .botao.stone:hover {
+    @apply bg-stone-950 text-white;
+  }
+  .botao.sky {
+    @apply bg-sky-400 text-white;
+  }
+  .botao.sky:hover {
+    @apply bg-sky-700 text-white;
+  }
+  .botao.zinc {
+    @apply bg-zinc-500 text-white;
+  }
+  .botao.zinc:hover {
+    @apply bg-zinc-700 text-white;
+  }
+
 }

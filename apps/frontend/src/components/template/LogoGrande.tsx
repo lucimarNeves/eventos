@@ -7,22 +7,21 @@ const fonte = Righteous({
     weight: '400',
 })
 
-export default function Logo() {
+export default function LogoGrande() {
     return (
         <Link href="/" className={`
-        flex items-center gap-2  ${fonte.className}`}>
+        flex flex-col items-center gap-2  ${fonte.className}`}>
           <Image 
             src="/logo.svg"
             alt="Logo"
-            width={50}
-            height={50}
+            width={100}
+            height={100}
           />
 
-           <h1 className='flex flex-col items-center text-lg leading-5 text-white'>
-             <div>
+           <h1 className='text-5xl text-white'>
+             
                 CONVIT<span className='font-extrabold text-transparent text-1xl bg-clip-text bg-gradient-to-r from-cyan-300 to-indigo-600 '>3</span>
-             </div>
-             <div>DIGITAL</div>
+                DIGITAL
            </h1>
 
         </Link>
